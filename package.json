@@ -1,0 +1,39 @@
+{
+  "name": "ben-to-json",
+  "version": "1.0.0",
+  "description": "Convert Bentham .ben binary files to JSON",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "get+https://github.com/BenthamInstruments/bentham.co.uk"
+  },
+  "author": {
+    "name": "Bentham Instruments"
+  },
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "cfb": "^1.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "deep-map": "^1.5.0",
+    "jest": "^23.0.0",
+    "lodash": "^4.17.10"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testEnvironment": "node",
+    "verbose": true
+  }
+}
