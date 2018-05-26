@@ -8,6 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const util = require('util');
 
 const deepMap = require('deep-map');
 var _ = require('lodash');
@@ -25,13 +26,21 @@ function toPrecision(obj) {
   });
 }
 
-// Test test_00024.ben
-test('test_00024.ben', (done) => {  
-  const ben_input = fs.readFileSync(path.join(ben_dir, 'test_00024.ben'));
-  const json_output = JSON.parse(fs.readFileSync(path.join(json_dir, 'test_00024.json')));
-  
-  let json_test = null;
-  expect(() => { json_test = parse(ben_input); }).not.toThrow();
-  expect(toPrecision(json_test)).toEqual(toPrecision(json_output));
-  done();
+// Test set of .ben and verified .json files
+const TEST_SET = [
+  ['test_00024.ben', 'test_00024.json'],
+  ['test_00453.ben', 'test_00453.json']
+];
+
+// Loop through and test the test set
+TEST_SET.forEach(TEST => {
+  test(util.format('parse(%s) === %s' ,TEST[0], TEST[1]), (done) => {  
+    const ben_input = fs.readFileSync(path.join(ben_dir, TEST[0]));
+    const json_output = JSON.parse(fs.readFileSync(path.join(json_dir, TEST[1])));
+    
+    let json_test = null;
+    expect(() => { json_test = parse(ben_input); }).not.toThrow();
+    expect(toPrecision(json_test)).toEqual(toPrecision(json_output));
+    done();
+  });
 });
