@@ -16,7 +16,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "cfb": "^1.0.7"
+    "cfb": "^1.0.7",
+    "npm": "^6.1.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
