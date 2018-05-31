@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "get+https://github.com/BenthamInstruments/bentham.co.uk"
+    "url": "git+https://github.com/BenthamInstruments/bentham.co.uk"
   },
   "author": {
     "name": "Bentham Instruments"
@@ -16,8 +16,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "cfb": "^1.0.7",
-    "npm": "^6.1.0"
+    "cfb": "^1.0.7"
   },
   "devDependencies": {
     "chai": "^4.1.2",
