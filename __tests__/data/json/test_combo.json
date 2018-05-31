@@ -6085,6 +6085,7 @@
           "value": 8571.21948867072
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.217122958110631
@@ -13637,6 +13638,7 @@
           "value": 8608.18328436642
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.285354051584714
@@ -21189,6 +21191,7 @@
           "value": 8616.66839683457
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.2407124063091
@@ -23229,6 +23232,7 @@
           "value": 8482.31003944157
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.249919443260988
@@ -23246,7 +23250,7 @@
           "value": 64122.9480819853
         }
       ],
-      "name": "combo 3",
+      "name": "Random Symbols12=*()\"!%£",
       "no_of_points": 70,
       "no_of_points_to_plot": 70,
       "timestamps": [
@@ -23885,6 +23889,7 @@
           "value": 8511.66100628367
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.184796401102254
@@ -23902,7 +23907,7 @@
           "value": 64337.5473707439
         }
       ],
-      "name": "combo 3",
+      "name": "Markus Führer",
       "no_of_points": 70,
       "no_of_points_to_plot": 70,
       "timestamps": [
@@ -24541,6 +24546,7 @@
           "value": 8544.67492254224
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.192092927153733
@@ -30446,6 +30452,7 @@
           "value": 92.4775871145871
         },
         {
+          "measurement": "Symbols: !\"£$%^&*()",
           "uncertain": true,
           "units": "nm counts ms-1",
           "value": 0.0493163750556288
@@ -31919,22 +31926,9 @@
       "zero_calibration": []
     }
   ],
-  "error": {
-    "invalid_utf8": [
-      "measurement",
-      "measurement",
-      "measurement",
-      "name",
-      "measurement",
-      "name",
-      "measurement",
-      "measurement",
-      "measurement",
-      "information"
-    ]
-  },
   "file_info": [
     {
+      "information": "Hello!!\"£$%^&*() <-Symbols",
       "title": "F1"
     },
     {
@@ -31962,32 +31956,32 @@
   },
   "markers": [
     {
-      "data_Set_index": 1,
+      "data_set_index": 1,
       "x_value": null,
       "y_value": null
     },
     {
-      "data_Set_index": 3,
+      "data_set_index": 3,
       "x_value": 685.445939184939,
       "y_value": 246.666822602473
     },
     {
-      "data_Set_index": 4,
+      "data_set_index": 4,
       "x_value": 762.797793695945,
       "y_value": 278.461460359787
     },
     {
-      "data_Set_index": 4,
+      "data_set_index": 4,
       "x_value": 966.120141053098,
       "y_value": 238.408840126387
     },
     {
-      "data_Set_index": 5,
+      "data_set_index": 5,
       "x_value": 764.141302179465,
       "y_value": 282.994019018987
     },
     {
-      "data_Set_index": 5,
+      "data_set_index": 5,
       "x_value": 958.700485455423,
       "y_value": 241.853488269731
     }

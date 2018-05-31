@@ -22,7 +22,8 @@ const json_dir = path.join(__dirname, '/data/json');
 // Limit all numbers to common max precision
 function toPrecision(obj) {
   return deepMap(obj, (value, key) => {
-    return _.isNumber(value) ? Number(value.toPrecision(10)) : value;
+    return (Number.isNaN(value) ? null : 
+           (_.isNumber(value) ? Number(value.toPrecision(10)) : value));
   });
 }
 
@@ -37,11 +38,11 @@ const TEST_SET = [
 TEST_SET.forEach(TEST => {
   test(util.format('parse(%s) === %s' ,TEST[0], TEST[1]), (done) => {  
     const ben_input = fs.readFileSync(path.join(ben_dir, TEST[0]));
-    const json_output = JSON.parse(fs.readFileSync(path.join(json_dir, TEST[1])));
+    const json_output = JSON.parse(fs.readFileSync(path.join(json_dir, TEST[1]), 'utf8'));
     
     let json_test = null;
     expect(() => { json_test = parse(ben_input); }).not.toThrow();
-//    expect(toPrecision(json_test)).toEqual(toPrecision(json_output));
+    expect(toPrecision(json_test)).toEqual(toPrecision(json_output));
     done();
   });
 });
