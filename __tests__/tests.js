@@ -32,6 +32,7 @@ const TEST_SET = [
    ['test_00024.ben', 'test_00024.json']
   ,['test_00453.ben', 'test_00453.json']
   ,['test_combo.ben', 'test_combo.json']
+  ,['test_combo_stationary.ben', 'test_combo_stationary.json']
 ];
 
 // Loop through and test the test set
