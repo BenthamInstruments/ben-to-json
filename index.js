@@ -6,7 +6,7 @@
 // @copyright Copyright © 2018 by Bentham Instruments Ltd. All Rights Reserved.
 //
 
-const BenToJSON = require('./lib/BenToJSON');
+const BenToJSON = require("./lib/BenToJSON");
 
 // Converts a Bentham Instruments measurement data file in .ben binary format
 // to JSON.
@@ -14,7 +14,7 @@ const BenToJSON = require('./lib/BenToJSON');
 // @param data (string|Buffer) The input file data
 // @returns POD JS object
 function parse(data) {
-  return (new BenToJSON(data)).get_json();
+  return new BenToJSON(data).get_json();
 }
 
 module.exports = {
