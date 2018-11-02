@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenthamInstruments/ben-to-json"
+    "url": "https://github.com/BenthamInstruments/ben-to-json"
   },
   "author": {
     "name": "Bentham Instruments"
