@@ -1,4 +1,4 @@
-### Bentham .ben binary file to JSON converter
+### BenWin+ .ben binary file to JSON converter
 
 #### Prerequisites
 
