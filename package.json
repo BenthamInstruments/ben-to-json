@@ -1,11 +1,14 @@
 {
-  "name": "ben-to-json",
-  "version": "1.0.1",
+  "name": "@benthaminstruments/ben-to-json",
+  "version": "1.0.2",
   "description": "Convert Bentham .ben binary files to JSON",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BenthamInstruments/ben-to-json"
+    "url": "https://github.com/BenthamInstruments/ben-to-json.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": {
     "name": "Bentham Instruments"
@@ -14,14 +17,16 @@
   "typings": "index.d.ts",
   "scripts": {
     "fmt": "prettier --write **/*.ts* **/*.js **/*.json*",
-    "test": "jest"
+    "test": "cross-env NODE_ICU_DATA=./node_modules/full-icu jest"
   },
   "dependencies": {
     "cfb": "^1.1.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "cross-env": "^7.0.2",
     "deep-map": "^2.0.0",
+    "es6-weak-map": "^2.0.3",
     "full-icu": "^1.3.1",
     "jest": "^25.3.0",
     "lodash": "^4.17.15",
