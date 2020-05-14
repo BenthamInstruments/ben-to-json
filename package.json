@@ -1,11 +1,14 @@
 {
-  "name": "ben-to-json",
-  "version": "1.0.1",
+  "name": "@benthaminstruments/ben-to-json",
+  "version": "1.0.2",
   "description": "Convert Bentham .ben binary files to JSON",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BenthamInstruments/ben-to-json"
+    "url": "https://github.com/BenthamInstruments/ben-to-json.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": {
     "name": "Bentham Instruments"
