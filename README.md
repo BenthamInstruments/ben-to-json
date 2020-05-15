@@ -1,4 +1,7 @@
-### BenWin+ .ben binary file to JSON converter
+## BenWin+ .ben binary file to JSON converter
+
+![Node CI](https://github.com/BenthamInstruments/ben-to-json/workflows/Node%20CI/badge.svg)
+![Publish package on release](https://github.com/BenthamInstruments/ben-to-json/workflows/Publish%20package%20on%20release/badge.svg)
 
 #### Prerequisites
 
