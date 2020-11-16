@@ -1,6 +1,6 @@
 {
   "name": "@benthaminstruments/ben-to-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert Bentham .ben binary files to JSON",
   "license": "UNLICENSED",
   "repository": {
